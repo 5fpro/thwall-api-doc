@@ -15,6 +15,6 @@ tags:
     name: 藝人
 paths:
   /artists:
-    $ref: '../paths/artists/index.yml'
+    $ref: '//5fpro.github.io/thwall-api-doc/paths/artists/index.yml'
   /artists/{artist_id}:
-    $ref: '../paths/artists/show.yml'
+    $ref: '//5fpro.github.io/thwall-api-doc/paths/artists/show.yml'
