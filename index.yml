@@ -1,4 +1,4 @@
-swagger: 2.0
+swagger: '2.0'
 info:
   title: 'THE WALL API documentation'
   version: '1.0'
@@ -38,7 +38,6 @@ paths:
           required: true
           type: integer
           description: '藝人 ID'
-          allowEmptyValue: false
       responses:
         '200':
           description: ''
