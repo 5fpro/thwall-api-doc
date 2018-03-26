@@ -4,7 +4,6 @@ get:
     - 藝人
   description: '取得所有藝人列表'
   operationId: 'artists_index'
-  # parameters:
   responses:
     '200':
       description: ''
