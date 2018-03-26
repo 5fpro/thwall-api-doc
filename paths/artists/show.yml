@@ -1,0 +1,17 @@
+get:
+  summary: '取得藝人基本資料'
+  tags:
+    - 藝人
+  description: '取得藝人基本資料'
+  operationId: 'artists_show'
+  parameters:
+    -
+      name: 'artist_id'
+      in: path
+      required: true
+      type: integer
+      description: '藝人 ID'
+      allowEmptyValue: false
+  responses:
+    '200':
+      description: ''
