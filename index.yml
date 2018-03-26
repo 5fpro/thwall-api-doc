@@ -14,7 +14,7 @@ tags:
   -
     name: 藝人
 paths:
-  /artists':
+  /artists:
     get:
       summary: '取得所有藝人列表'
       tags:
