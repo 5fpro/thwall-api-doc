@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: 'THE WALL API documentation'
   version: '1.0'
-host: 'api-staging.arttrend.asia'
+host: 'api-staging.thewall.tw'
 basePath: '/'
 schemes:
   - 'https'
@@ -13,3 +13,14 @@ produces:
 tags:
   -
     name: 藝人
+paths:
+  /artists:
+    get:
+      summary: '取得所有藝人列表'
+      tags:
+        - 藝人
+      description: '取得所有藝人列表'
+      operationId: 'artists_index'
+      responses:
+        '200':
+          description: ''
