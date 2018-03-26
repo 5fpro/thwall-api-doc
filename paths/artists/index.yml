@@ -1,9 +1,0 @@
-get:
-  summary: '取得所有藝人列表'
-  tags:
-    - 藝人
-  description: '取得所有藝人列表'
-  operationId: 'artists_index'
-  responses:
-    '200':
-      description: ''
