@@ -21,6 +21,19 @@ paths:
         - 藝人
       description: '取得所有藝人列表'
       operationId: 'artists_index'
+      parameters:
+        -
+          name: 'page'
+          in: query
+          type: integer
+          description: '分頁的第幾頁'
+          default: 1
+        -
+          name: 'per'
+          in: query
+          type: integer
+          description: '分頁的每頁幾筆，預設 30 ，最大值為 100'
+          default: 30
       responses:
         '200':
           description: ''
